@@ -1,0 +1,140 @@
+body{
+	background-color: #005AA3;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #004e8e;
+	height: 30px;
+	color: white;
+	font-size: 9px;
+	text-align: center;
+}
+
+#smbox{
+	display: none;
+}
+
+
+#phone_box{
+	display: none;
+	overflow: hidden;
+}
+
+#address_box{
+	display: inline-block;
+	overflow: hidden;
+	height: 9px;
+}
+
+.divider1{
+	display: none;
+	padding: 0px 10px 0px 10px;
+}
+
+.divider2{
+	display: none;
+	padding: 0px 10px 0px 10px;
+}
+
+#content{
+	width: 461px;
+	background: white;
+	margin: auto;
+	margin-top: 20px;
+	box-shadow: 5px 5px;
+}
+
+#links_list{
+	display: none;
+	text-align: center;
+	font-size: 150%;
+	width: 600px;
+	position:relative;
+	top: -25px;
+}
+
+#button_links_list{
+	width: 40px;
+	height: 29px;
+	background: blue;
+	display: inline-block;
+	position: relative;
+	left: 50px;
+	bottom: 15px;
+}
+
+.nav_link:hover{
+	color: purple;
+	background-color: black;
+}
+
+@media screen and (min-width: 530px){
+	#phone_box{
+		display: inline-block;
+	}
+
+	#address_box{
+		display: inline-block;
+	}
+
+	.divider1{
+		display: inline;
+	}
+
+	#smbox{
+	display: none;
+	}
+
+	#content{
+		width: 627px;
+	}
+
+	#button_links_list{
+		left: 120px;
+		bottom: 15px;
+	}
+
+}
+
+@media screen and (min-width: 820px){
+	#phone_box{
+		display: inline-block;
+	}
+
+	#address_box{
+		display: inline-block;
+	}
+
+	.divider2{
+		display: inline;
+	}
+
+	#smbox{
+	display: inline-block;
+	}
+
+	#content{
+		width: 927px;
+	}
+
+	#links_list{
+		display: inline-block;
+	}	
+
+	#button_links_list{
+		display: none;
+	}
+
+	#button_nav_list{
+		display: none;
+	}
+}
+
+.sm_image{
+	height: 20px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
